@@ -23,7 +23,7 @@ function Tilt({children}) {
   React.useEffect(() => {
     let myRef = ref.current
     VanillaTilt.init(myRef, {
-      max: 25,
+      max: 40,
       speed: 400,
       glare: true,
       'max-glare': 0.5,
